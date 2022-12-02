@@ -1,0 +1,12 @@
+.profile_pic {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 280px;
+    height: 400px;
+}
+
+.profile_pic img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}

@@ -1,3 +1,8 @@
+.card {
+  display: inline-block;
+  width: 280px;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
