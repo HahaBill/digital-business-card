@@ -2,7 +2,7 @@ import react from 'react'
 
 export default function Body() {
     return (
-        <div>
+        <div className='body'>
             <h5>About</h5>
             <p>lollol
                 sdsdsds

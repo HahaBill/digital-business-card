@@ -1,12 +1,24 @@
 .profile_pic {
-    display: inline-block;
+    /* display: flex; */
     background-color: aquamarine;
-    width: 280px;
+    width: 300px;
     height: 400px;
 }
 
-.profile_pic img {
-    display: block;
-    height: 100%;
-    width: 100%;
+.header {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+/*https://stackoverflow.com/questions/12429677/align-two-headings-closer-to-each-other-using-css
+https://jsbin.com/vedemizeze/edit?html,css,output*/
+.header h2 + h4 { 
+    line-height: 1px;
+}
+
+.job_title {
+    color: #F3BF99;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+
 }

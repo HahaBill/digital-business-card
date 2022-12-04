@@ -11,9 +11,9 @@ function App() {
 
   return (
     <div className='card'>
-       <Header />
-       <Body />
-       <Footer />
+      <Header />
+      <Body />
+      <Footer />
     </div>
 
     // <div className="App">
