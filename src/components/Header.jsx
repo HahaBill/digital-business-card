@@ -1,11 +1,11 @@
-import react from 'react'
+import React from 'react'
 import './styling/Header.css'
 import profilePic from '../assets/profile_linkedin.jpg'
 import linkedInIcon from '../assets/linkedin_icon.png'
 import emailIcon from '../assets/email_icon.png'
 
 export default function Header(props) {
-    const profilePicStyle = {flex:'1', width: '100%', height: '100%'};
+    const profilePicStyle = {flex:'1', width: '100%', height: '100%', borderRadius: '10%'};
     const linkedInStyle = {flex:'1', width: '35%', height: '35%'};
     const emailStyle = {flex:'0.7', width: '20%', height: '20%'};
 
@@ -34,9 +34,6 @@ export default function Header(props) {
                     </div>
                 </button>
             </div>
-            {/* <div>
-                <Link to={{pathname:'https://www.w3schools.com/'}} target="_blank"></Link>
-            </div> */}
         </div>
     )
 }

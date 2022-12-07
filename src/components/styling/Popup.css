@@ -25,3 +25,26 @@
     top: 16px;
     right: 16px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+}
+
+label {
+    font-size: large;
+}
+
+input[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: rgb(249, 105, 14);
+    color: white;
+    border: none;
+  }
